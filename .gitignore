@@ -1,0 +1,17 @@
+node_modules/
+.env
+
+# TypeScript build output
+dist/
+
+# Runtime data
+.log
+*.log
+
+# Editor settings
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
