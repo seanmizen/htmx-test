@@ -5,8 +5,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "s": "ts-node server/server.ts",
-    "start": "ts-node server/server.ts"
+    "s": "bun --hot server/server.ts"
   },
   "dependencies": {
     "@types/express": "^4.17.20",

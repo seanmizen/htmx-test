@@ -8,9 +8,14 @@
 </head>
 <body>
 
-  <button hx-get="/some-api-endpoint" hx-trigger="click">
-    Click Me
+  <button hx-get="/some-api-endpoint" hx-trigger="click" hx-target="#some-target">
+    Click Me...?
   </button>
+  <div id="some-target">
+    --
+  </div>
+  
+  <a href="/blog">Blog</a>
 
 </body>
 </html>
